@@ -22,7 +22,7 @@ or a fully expanded view:
 You can see this yourself here:
 https://developer.nytimes.com/movie_reviews_v2.json#/Documentation/GET/critics/%7Bresource-type%7D.json
 
-You can see that the master structure is a dictionary and has a key named 'response'. This is also a dictionary and has two keys: 'data' and 'meta'. As you continue to examine the schema hierarchy, you'll notice the vast majority in this case are dictionaries. 
+You can see that the master structure is a dictionary and has multiple keys which include: 'status', 'copyright', and 'num_results'. As you continue to examine the schema hierarchy, you'll notice the vast majority in this case are dictionaries. Keep in mind to check for discrepancies between the schema and the actual data, there could be more than what is shown in the diagram. 
 
 ## Loading the Data File
 
